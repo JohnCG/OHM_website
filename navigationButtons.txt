@@ -1,0 +1,16 @@
+<div id="navbuttonsonleft">
+<div id="navcontainer">
+<ul id="navlist">
+<li><a href="index.html">Home</a></li>
+<li><a href="AboutUs.html">About Us</a></li>
+<li><a href="CaptWinn.html">History</a></li>
+<li><a href="Library.html">Library</a></li>
+<li><a href="Dory.html">Our Dory</a></li>
+<li><a href="Events.html">Events</a></li>
+<li><a href="FOTWH.html">Newsletter</a></li>
+<li><a href="FriendsOHM.html">Membership</a></li>
+<li><a href="Hours.html">Visit Us</a></li>
+<li><a href="./WinnGallery/GallIndex.htm">Gallery</a></li>
+</ul>
+</div>
+</div>
