@@ -1,0 +1,332 @@
+@import url(../normalize.css);
+/* seems border must be specified in pixels for Chrome */
+#galleryPageMainBody {
+  background: transparent url(../br_paper.jpg) repeat scroll 0%;
+  position: relative;
+  margin: 0 auto;
+  width: 50%; /*50em;*/
+min-width: 1200px;
+max-width: 1200px;
+  height: 50%; /*44em;*/
+/*min-height: 900px;*/
+  text-align: center;
+  font-family: "Book Antigua","Palatino Linotype", Palatino, serif;
+}
+#returnFromGallery { /* for Return to Heritage Museum */ 
+  font-size: 1.1em;
+  text-decoration: none;
+  font-weight: normal;
+  color: #000000;
+/*margin-left: 4px;*/
+width: 100%
+min-width: 1200px;
+max-width: 1200px;
+/*height: 24px;*/
+/*text-align: center;*/
+}
+h1 {
+  margin-top: 0px;
+  margin-bottom: 19px;
+/*margin-left: 4px;*/
+/*text-align: center;*/ /*margin: 0 auto;*/
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #592c2c;
+/*overflow: hidden;*/
+width: 100%;
+min-width: 1200px;
+max-width: 1200px;
+/*height: 55px;*/
+}
+#galleryCenteredWrapper {
+  width: 100%; /*50%;*/ /*100%;*/
+  font-weight: bold;
+  color: #592c2c;
+/*margin: 0 auto;*/
+min-width: 1200px;
+max-width: 1200px;
+/*text-align: center;*/
+/*height: 900px;*/
+}
+#anotherdiv {
+position: relative;
+/*margin-top: 40px;*/
+/*margin-left: 40px;*/
+margin: 0 auto;
+/*height: 60px;*/
+width: 100%;
+/*height: 100px;*/
+min-width: 1200px; /*1200px;*/
+max-width: 1200px;
+}
+.thumbnailAndCaption {
+  /*margin-left: -120px;*/
+  /*border-bottom: 1px dotted #333333;*/
+padding-top: 49px;
+padding-bottom: 1px;
+padding-left: 5px;
+padding-right: 5px;
+/*height: 50px;*/
+/*width: 1%;*/
+/*background: white;*/
+/*  border: 4px ridge;*/
+  border-color: #CE6900;
+
+}
+/* following are the thumbnails across the Top */
+#tn1,#tn2,#tn3,#tn4,#tn5,#tn6,#tn7,#tn8,#tn9,#tn10 {
+  position: relative;
+left: 20px; /*-65px;*/ /*30%;*/ /*80px;*/
+/*top: 0;*/
+  /*margin-left: -87px;*/
+  /*max-width: 90px;*/
+  /*height: 60px;*/ /*57px;*/
+  /*font-weight: normal;  */
+min-width: 90px;
+width: 10%; /*90px;*/
+background: white;
+  border: 4px ridge;
+  border-color: #CE6900;
+font-size: 0.9em;
+}
+#tn2 {
+position: relative; /*absolute;*/ /*static;*/ /*relative;*/
+left: 16px;
+min-width: 90px;
+width: 10%;
+}
+#tn3 {
+position: relative; /*absolute;*/ /*static;*/ /*relative;*/
+left: 12px;
+min-width: 90px;
+width: 10%;
+}
+#tn4 {
+position: relative; /*absolute;*/ /*static;*/ /*relative;*/
+left: 8px;
+min-width: 90px;
+width: 10%;
+}
+#tn5 {
+position: relative; /*absolute;*/ /*static;*/ /*relative;*/
+left: 4px;
+min-width: 90px;
+width: 10%;
+}
+#tn6 {
+position: relative; /*absolute;*/ /*static;*/ /*relative;*/
+left: 0px;
+min-width: 90px;
+width: 10%;
+}
+#tn7 {
+position: relative; /*absolute;*/ /*static;*/ /*relative;*/
+left: -4px;
+min-width: 90px;
+width: 10%;
+}
+#tn8 {
+position: relative; /*absolute;*/ /*static;*/ /*relative;*/
+left: -8px;
+min-width: 90px;
+width: 10%;
+}
+#tn9 {
+position: relative; /*absolute;*/ /*static;*/ /*relative;*/
+left: -13px;
+min-width: 90px;
+width: 10%;
+}
+#tn10 {
+position: relative; /*absolute;*/ /*static;*/ /*relative;*/
+left: -17px;
+min-width: 90px;
+width: 10%;
+}
+#middle {
+top: 0;
+width: 100%;
+    /*padding-top: 75%;*/ /* defines aspect ratio */
+height: 75%;
+    position: relative;
+}
+#yetanotherdiv {
+position: relative;
+/*margin-top: 40px;*/
+/*margin-left: 40px;*/
+margin: 0 auto;
+/*height: 60px;*/
+width: 100%;
+min-width: 1200px; /*1200px;*/
+max-width: 1200px;
+}
+#middle2 {
+top: 13px; /*34px;*/
+width: 100%;
+    /*padding-top: 75%;*/ /* defines aspect ratio */
+height: 75%;
+    position: relative;
+}
+#tn11,#tn12 {
+  position: relative;
+  left: 20px; /*-960px;*/ /*-65px;*/ /*30%;*/ /*80px;*/
+  min-width: 90px;
+  min-height: 90px;
+  height: 10%;
+  width: 10%; /*90px;*/
+  background: white;
+  border: 4px ridge;
+  border-color: #CE6900;
+  font-size: 0.9em;
+}
+#tn11a,#tn11b,#tn11c,#tn11d,#tn11e,#tn11f,#tn11g,#tn11h {
+  position: relative;
+  min-width: 90px;
+  min-height: 90px;
+  height: 10%;
+  width: 10%;
+  background: white;
+  border: 4px ridge;
+  border-color: #CE6900;
+  font-size: 0.9em;
+visibility: hidden;
+}
+#tn11a {left: 16px;}
+#tn11b {left: 12px;}
+#tn11c {left: 8px;}
+#tn11d {left: 4px;}
+#tn11e {left: 0px;}
+#tn11f {left: -4px;}
+#tn11g {left: -8px;}
+#tn11h {left: -13px;}
+#tn12 {left: -17px;}
+
+a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: normal;
+  outline: 0; /* remove box */
+}
+a:hover {
+  color: #000000;
+  text-decoration: none; /*underline;*/
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+/*#TopFrame {
+  border: 3px double;
+  width: 100%;
+  height: 100%;
+}*/
+/*#galleryBigPane,*/
+#TopFrame {
+  position: relative;                                                                                           /* absolute;*/
+  margin-top: 40px; /*101px;*/ /*98px;*/ /*90px;*/ /*-200px;*/ /*-598px;*/ /*1.6ex;*/
+  /*margin-left: 19px;*/ /*16.2em;*/
+margin-left: 4px; /*-376px;*/ /*-379px;*/ /*-380px;*/
+  height: 450px;; /*450px;*/
+  width: 752px; /*780px;*/ /*64%;*/
+  font-weight: normal;
+  background: white;
+  border: 4px ridge;
+  border-color: #CE6900; /*#592c2c;*/
+  text-align: center;
+
+}
+
+a.thumbnailAndCaption {outline:none; }
+a.thumbnailAndCaption strong {line-height:30px;}
+a.thumbnailAndCaption:hover {text-decoration:none;}
+a.thumbnailAndCaption span { z-index:10;display:none; padding:14px 20px; margin-top:-60px; margin-left:-180px; width:240px; line-height:16px; }
+a.thumbnailAndCaption:hover span{ display:inline; position:absolute; color:#111; border:1px solid #DCA; background:#fffAF0;}
+
+/*a.tooltip {outline:none; }*/
+/*a.tooltip strong {line-height:30px;}*/
+/*a.tooltip:hover {text-decoration:none;}*/
+/*a.tooltip span { z-index:10;display:none; padding:14px 20px; margin-top:-60px; margin-left:-180px; width:240px; line-height:16px; }*/
+/*a.tooltip:hover span{ display:inline; position:absolute; color:#111; border:1px solid #DCA; background:#fffAF0;}*/
+/*.callout {z-index:20;position:absolute;top:30px;border:0;left:-12px;}*/
+
+/* #eachBigPicturePageBody is used by the individual pages */
+#eachBigPicturePageBody {
+  background-color: rgb(255,255,255);
+  font-weight: normal;
+  font-family: "Book Antigua","Palatino Linotype", Palatino, serif;
+  /*position: absolute;*/
+  width: 100%;
+  height: 100%;
+  margin-left: 0px;
+  margin-top: 50px; /*85px;*/
+  text-align:center;
+  font-weight: normal;
+overflow: hidden;
+}
+#eachBigPicturePageBody img {
+  border: 1px solid #021a40;
+}
+.verticalCenterLine {
+position: absolute; /*relative;*/
+z-index:10;
+display:inline;
+margin-left: 0px;  /*margin: 0 auto;*/
+/*margin-top: 650px;*/
+  width: 1px;
+  height: 100%; /*5px;*/
+  color: orange; /*yellow;*/
+top: 0;
+left: 50%; /*398px;*/
+}
+.verticalLineLeft {
+position: absolute; /*relative;*/
+z-index:10;
+display:inline;
+/*margin-left: -379px;*/  /*margin: 0 auto;*/
+/*margin-left: 20px;*/ /*-380px;*/ /*-329px;*/
+/*margin-top: 650px;*/
+  width: 1px;
+  height: 100%; /*5px;*/
+  color: yellow;
+left: 120px; /*20px;*/
+top: 0;
+}
+.verticalLineRight {
+position: absolute; /*relative;*/
+z-index:10;
+display:inline;
+/*margin-left: 378px;*/  /*margin: 0 auto;*/
+/*margin-left: 780px;*/ /*376px;*//*329px;*/
+/*margin-right: 20px;*/
+/*margin-top: 650px;*/
+  width: 1px;
+  height: 100%; /*5px;*/
+  color: pink; /*yellow;*/
+left: 1080px; /*right: 20px;*/
+top: 0;
+}
+.horizontalTopLine {
+position: absolute; /*relative;*/
+z-index:99;
+display:inline;
+/*margin-left: -400px;*/
+left: -100px;
+/*margin-top: 80px;*/
+top: 180px;
+  width:  100%;
+  height: 1px;
+  color: yellow;
+}
+.horizontalBotLine {
+position: absolute; /*relative;*/
+z-index:99;
+display:inline;
+/*margin-left: -400px;*/
+/*margin-top: 538px;*/ /*612px;*/
+  width: 100%;
+  height: 1px;
+  color: yellow;
+top: 632px;
+left: -100px;
+}

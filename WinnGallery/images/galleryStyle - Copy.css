@@ -1,0 +1,301 @@
+@import url(../normalize.css);
+/* seems border must be specified in pixels for Chrome */
+#galleryPageMainBody {
+  background: transparent url(../br_paper.jpg) repeat scroll 0%;
+  position: relative;
+  margin: 0 auto;
+  width: 50em;
+  height: 44em;
+  text-align: center;
+  font-family: "Book Antigua","Palatino Linotype", Palatino, serif;
+}
+#returnFromGallery { /* for Return to Heritage Museum */ 
+  font-size: 1.1em;
+  text-decoration: none;
+  font-weight: normal;
+  color: #000000;
+}
+h1 {
+  margin-top: 0px;
+  margin-bottom: 19px;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #592c2c;
+}
+/*                                                  #galleryCenteredWrapper {
+  width: 100%;
+  font-weight: bold;
+  color: #592c2c;
+}*/
+/* following are the thumbnails across the Top */
+#tn1,#tn2,#tn3,#tn4,#tn5,#tn6,#tn7,#tn8,#tn9,#tn10 {
+  position: absolute; /*static;*/ /*relative;*/
+  /*margin-top: 1.6ex;*/
+  margin-left: -87px;
+  width: 90px;
+  height: 57px;
+  font-weight: normal;
+  background: white;
+  border: 4px ridge;
+  border-color: #CE6900;
+}
+#tn2 {
+  /*margin-top: -80px;*/ /*-81px;*/
+  margin-left: 11px;
+}
+#tn3 {
+  margin-left: 109px;
+}
+#tn4 {
+  margin-left: 207px;
+}
+#tn5 {
+  margin-left: 305px; /*301px;*/
+}
+#tn6 {
+  margin-left: 403px; /*399px;*/
+}
+#tn7 {
+  margin-left: 501px; /*497px;*/
+}
+#tn8 {
+  margin-left: 599px; /*595px;*/
+}
+#tn9 {
+  margin-left: 697px; /*693px;*/
+}
+#tn10 {
+  margin-left: 795px; /*791px;*/
+}
+/* the following are the thumbnails down the Left side */
+/*#l1,#l2,#l3,#l4,#l5,#l6 {*/
+#tn11,#tn12,#tn13,#tn14,#tn15,#tn16 {
+  position: absolute; /*static;*/ /*relative;*/
+  margin-top: 82px; /*5px;*/
+  margin-left: -87px; /*-110px;*/
+  width: 90px;
+  height: 57px;
+  font-weight: normal;
+  background: white;
+  border: 4px ridge;
+  border-color: #CE6900;
+}
+#tn12 { /*#l2 {*/
+  margin-top: 164px;/*160px;*/
+}
+#tn13 { /*#l3 {*/
+  margin-top: 246px;
+}
+#tn14 { /*#l4 {*/
+  margin-top: 328px;
+}
+#tn15 { /*#l5 {*/
+  margin-top: 410px;
+}
+#tn16 { /*#l6 {*/
+  margin-top: 492px;
+}
+/*#l7 {
+  margin-top" 574px;
+}*/
+/* the following are the thumbnails down the Right side */
+/*#r1,#r2,#r3,#r4,#r5,#r6 {*/
+#tn17,#tn18,#tn19,#tn20,#tn21,#tn22 {
+  position: absolute; /*static;*/ /*relative;*/
+  margin-top: 82px; /*-507px;*/
+  margin-left: 795px; /*790px;*/
+  width: 90px; /*29%;*/
+  height: 57px; /*500px;*/
+  font-weight: normal;
+  background: white;
+  border: 4px ridge;
+  border-color: #CE6900;
+}
+#tn18 { /*#r2 {*/
+  margin-top: 164px;
+}
+#tn19 { /*#r3 {*/
+margin-top: 246px;
+}
+#tn20 { /*#r4 {*/
+margin-top: 328px;
+}
+#tn21 { /*#r5 {*/
+margin-top: 410px;
+}
+#tn22 { /*#r6 {*/
+margin-top: 492px;
+}  
+/*#b1,#b2,#b3,#b4,#b5,#b6,#b7,#b8,#b9,#b10 {*/
+#tn23,#tn24,#tn25,#tn26,#tn27,#tn28,#tn29,#tn30,#tn31,#tn32 {
+  position: absolute; /*static;*/ /*relative;*/
+  margin-top: 574px;
+  margin-left: -87px; /*-110px;*/
+  width: 90px;
+  height: 57px;
+  font-weight: normal;
+  background: white;
+  border: 4px ridge;
+  border-color: #CE6900;
+}
+/*#b2,#b3,#b4,#b5,#b6,#b7,#b8,#b9,#b10 {*/
+#tn24,#tn25,#tn26,#tn27,#tn28,#tn29,#tn30,#tn31,#tn32 {
+  /*margin-top: -81px;*/
+  margin-left: 11px; /*-10px;*/
+}
+#tn25 { /*#b3 {*/
+  margin-left: 109px; /*90px;*/
+}
+#tn26 { /*#b4 {*/
+  margin-left: 207px;
+}
+#tn27 { /*#b5 {*/
+  margin-left: 305px;
+}
+#tn28 { /*#b6 {*/
+  margin-left: 403px;
+}
+#tn29 { /*#b7 {*/
+  margin-left: 501px;
+}
+#tn30 { /*#b8 {*/
+  margin-left: 599px;
+}
+#tn31 { /*#b9 {*/
+  margin-left: 697px;
+}
+#tn32 { /*#b10 {*/
+  margin-left: 795px;
+}
+a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: normal;
+  outline: 0; /* remove box */
+}
+a:hover {
+  color: #000000;
+  text-decoration: none; /*underline;*/
+}
+.thumbnailAndCaption {
+  margin-left: -120px;
+  /*border-bottom: 1px dotted #333333;*/
+  padding-top: 1ex;
+  padding-bottom: 1ex;
+  height: 60px;
+}
+a:visited {
+  text-decoration: none;
+}
+/*
+.thumbnailCaption {
+text-align: left;
+  margin-top: -60px;
+  margin-left: 210px;
+  line-height: 1;
+  padding: 3px 0 0 3px;
+}
+*/
+/*#TopFrame {
+  border: 3px double;
+  width: 100%;
+  height: 100%;
+}*/
+/*#galleryBigPane,*/
+#TopFrame {
+  position: relative;                                                                                           /* absolute;*/
+  margin-top: 99px; /*101px;*/ /*98px;*/ /*90px;*/ /*-200px;*/ /*-598px;*/ /*1.6ex;*/
+  /*margin-left: 19px;*/ /*16.2em;*/
+margin-left: 5px; /*-376px;*/ /*-379px;*/ /*-380px;*/
+  height: 450px;; /*450px;*/
+  width: 752px; /*780px;*/ /*64%;*/
+  font-weight: normal;
+  background: white;
+  border: 4px ridge;
+  border-color: #CE6900; /*#592c2c;*/
+  text-align: center;
+
+}
+/*#eachBigPicture {
+  border: 1px solid #021a40;
+margin-top: 50px; /*80px;*/
+
+}*/
+a.tooltip {outline:none; }
+a.tooltip strong {line-height:30px;}
+a.tooltip:hover {text-decoration:none;}
+a.tooltip span { z-index:10;display:none; padding:14px 20px; margin-top:-60px; margin-left:-180px; width:240px; line-height:16px; }
+a.tooltip:hover span{ display:inline; position:absolute; color:#111; border:1px solid #DCA; background:#fffAF0;}
+/*.callout {z-index:20;position:absolute;top:30px;border:0;left:-12px;}*/
+
+/* #eachBigPicturePageBody is used by the individual pages */
+#eachBigPicturePageBody {
+  background-color: rgb(255,255,255);
+  font-weight: normal;
+  font-family: "Book Antigua","Palatino Linotype", Palatino, serif;
+  /*position: absolute;*/
+  width: 100%;
+  height: 100%;
+  margin-left: 0px;
+  margin-top: 50px; /*85px;*/
+  text-align:center;
+  font-weight: normal;
+overflow: hidden;
+}
+#eachBigPicturePageBody img {
+  border: 1px solid #021a40;
+}
+.verticalLine {
+position: absolute; /*relative;*/
+z-index:10;
+display:inline;
+margin-left: 0px;  /*margin: 0 auto;*/
+/*margin-top: 650px;*/
+  width 1px;
+  height 5px;
+  color: yellow;
+}
+.verticalLineLeft {
+position: absolute; /*relative;*/
+z-index:10;
+display:inline;
+/*margin-left: -379px;*/  /*margin: 0 auto;*/
+margin-left: -380px; /*-329px;*/
+padding-left: 0;
+/*margin-top: 650px;*/
+  width 1px;
+  height 5px;
+  color: yellow;
+}
+.verticalLineRight {
+position: absolute; /*relative;*/
+z-index:10;
+display:inline;
+/*margin-left: 378px;*/  /*margin: 0 auto;*/
+margin-left: 380px; /*329px;*/
+padding-left: 0;
+/*margin-top: 650px;*/
+  width 1px;
+  height 5px;
+  color: yellow;
+}
+.horizontalTopLine {
+position: absolute; /*relative;*/
+z-index:99;
+display:inline;
+margin-left: -400px;
+margin-top: 80px;
+  /*width 1px;*/
+  height 1px;
+  color: yellow;
+}
+.horizontalBotLine {
+position: absolute; /*relative;*/
+z-index:99;
+display:inline;
+margin-left: -400px;
+margin-top: 538px; /*612px;*/
+  /*width 1px;*/
+  height 1px;
+  color: yellow;
+}

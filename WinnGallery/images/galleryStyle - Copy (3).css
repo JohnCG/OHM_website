@@ -1,0 +1,268 @@
+@import url(../normalize.css);
+/* seems border must be specified in pixels for Chrome */
+#galleryPageMainBody {
+  background: transparent url(../br_paper.jpg) repeat scroll 0%;
+  position: relative;
+  margin: 0 auto;
+  width: 50%;
+  min-width: 1200px;
+  max-width: 1200px;
+  /*height: 50%;*/
+  text-align: center;
+  font-family: "Book Antigua","Palatino Linotype", Palatino, serif;
+}
+#returnFromGallery { /* for Return to Heritage Museum */ 
+  font-size: 1.1em;
+  text-decoration: none;
+  font-weight: normal;
+  color: #000000;
+}
+h1 {
+  margin-top: 0px;
+  margin-bottom: 19px;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #592c2c;
+}
+#galleryCenteredWrapper {
+  position: relative;
+  margin: 0 auto;  
+}
+.thumbnailAndCaption {
+  padding-top: 49px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+/* following are the thumbnails across the Top */
+#tnrow1 {}
+#tn1,#tn2,#tn3,#tn4,#tn5,#tn6,#tn7,#tn8,#tn9,#tn10,
+#tn11,#tn11a,#tn11b,#tn11c,#tn11d,#tn11e,#tn11f,#tn11g,#tn11h,#tn12,
+#tn13,#tn13a,#tn13b,#tn13c,#tn13d,#tn13e,#tn13f,#tn13g,#tn13h,#tn14,
+#tn15,#tn15a,#tn15b,#tn15c,#tn15d,#tn15e,#tn15f,#tn15g,#tn15h,#tn16,
+#tn17,#tn17a,#tn17b,#tn17c,#tn17d,#tn17e,#tn17f,#tn17g,#tn17h,#tn18,
+#tn19,#tn19a,#tn19b,#tn19c,#tn19d,#tn19e,#tn19f,#tn19g,#tn19h,#tn20,
+#tn21,#tn21a,#tn21b,#tn21c,#tn21d,#tn21e,#tn21f,#tn21g,#tn21h,#tn22,
+#tn23,#tn24,#tn25,#tn26,#tn27,#tn28,#tn29,#tn30,#tn31,#tn32
+{
+  position: relative;  
+  background: white;
+  border: 4px ridge;
+  border-color: #CE6900;
+  font-size: 0.9em;
+}
+#tn1 { left: 20px; }
+#tn2 { left: 16px; }
+#tn3 { left: 12px; }
+#tn4 { left: 8px; }
+#tn5 { left: 4px; }
+#tn6 { left: 0px; }
+#tn7 { left: -4px; }
+#tn8 { left: -8px; }
+#tn9 { left: -13px; }
+#tn10 { left: -17px; }
+/* second row of thumnails */
+#tnrow2 {
+  position: relative;
+  top: 12px;
+}
+/* left and right */
+#tn11 { left: 20px; }
+/* tn11a - tn11h are not visible - just here for spacing */
+#tn11a,#tn11b,#tn11c,#tn11d,#tn11e,#tn11f,#tn11g,#tn11h {
+  visibility: hidden;
+}
+#tn11a {left: 16px;}
+#tn11b {left: 12px;}
+#tn11c {left: 8px;}
+#tn11d {left: 4px;}
+#tn11e {left: 0px;}
+#tn11f {left: -4px;}
+#tn11g {left: -8px;}
+#tn11h {left: -13px;}
+#tn12 {left: -17px;}
+/* third row of thumnails */
+#tnrow3 {
+  position: relative;
+  top: 24px;
+}
+/* left and right */
+#tn13 { left: 20px; }
+/* tn13a - tn13h are not visible - just here for spacing */
+#tn13a,#tn13b,#tn13c,#tn13d,#tn13e,#tn13f,#tn13g,#tn13h {
+  visibility: hidden;
+}
+#tn13a {left: 16px;}
+#tn13b {left: 12px;}
+#tn13c {left: 8px;}
+#tn13d {left: 4px;}
+#tn13e {left: 0px;}
+#tn13f {left: -4px;}
+#tn13g {left: -8px;}
+#tn13h {left: -13px;}
+#tn14 {left: -17px;}
+/* fourth row of thumnails */
+#tnrow4 {
+  position: relative;
+  top: 36px;
+}
+/* left and right */
+#tn15 { left: 20px; }
+/* tn15a - tn15h are not visible - just here for spacing */
+#tn15a,#tn15b,#tn15c,#tn15d,#tn15e,#tn15f,#tn15g,#tn15h {
+  visibility: hidden;
+}
+#tn15a {left: 16px;}
+#tn15b {left: 12px;}
+#tn15c {left: 8px;}
+#tn15d {left: 4px;}
+#tn15e {left: 0px;}
+#tn15f {left: -4px;}
+#tn15g {left: -8px;}
+#tn15h {left: -13px;}
+#tn16 {left: -17px;}
+/* fifth row of thumnails */
+#tnrow5 {
+  position: relative;
+  top: 48px;
+}
+/* left and right */
+#tn17 { left: 20px; }
+/* tn17a - tn17h are not visible - just here for spacing */
+#tn17a,#tn17b,#tn17c,#tn17d,#tn17e,#tn17f,#tn17g,#tn17h {
+  visibility: hidden;
+}
+#tn17a {left: 16px;}
+#tn17b {left: 12px;}
+#tn17c {left: 8px;}
+#tn17d {left: 4px;}
+#tn17e {left: 0px;}
+#tn17f {left: -4px;}
+#tn17g {left: -8px;}
+#tn17h {left: -13px;}
+#tn18 {left: -17px;}
+/* sixth row of thumnails */
+#tnrow6 {
+  position: relative;
+  top: 60px;
+}
+/* left and right */
+#tn19 { left: 20px; }
+/* tn19a - tn19h are not visible - just here for spacing */
+#tn19a,#tn19b,#tn19c,#tn19d,#tn19e,#tn19f,#tn19g,#tn19h {
+  visibility: hidden;
+}
+#tn19a {left: 16px;}
+#tn19b {left: 12px;}
+#tn19c {left: 8px;}
+#tn19d {left: 4px;}
+#tn19e {left: 0px;}
+#tn19f {left: -4px;}
+#tn19g {left: -8px;}
+#tn19h {left: -13px;}
+#tn20 {left: -17px;}
+/* seventh row of thumnails */
+#tnrow7 {
+  position: relative;
+  top: 72px;
+}
+/* left and right */
+#tn21 { left: 20px; }
+/* tn21a - tn21h are not visible - just here for spacing */
+#tn21a,#tn21b,#tn21c,#tn21d,#tn21e,#tn21f,#tn21g,#tn21h {
+  visibility: hidden;
+}
+#tn21a {left: 16px;}
+#tn21b {left: 12px;}
+#tn21c {left: 8px;}
+#tn21d {left: 4px;}
+#tn21e {left: 0px;}
+#tn21f {left: -4px;}
+#tn21g {left: -8px;}
+#tn21h {left: -13px;}
+#tn22 {left: -17px;}
+#tnrow8 {
+  position: relative;
+  top: 84px;
+}
+/* bottom row of thumbnails */
+#tn23 { left: 20px; }
+#tn24 {left: 16px;}
+#tn25 {left: 12px;}
+#tn26 {left: 8px;}
+#tn27 {left: 4px;}
+#tn28 {left: 0px;}
+#tn29 {left: -4px;}
+#tn30 {left: -8px;}
+#tn31 {left: -13px;}
+#tn32 {left: -17px;}
+
+#TopFrame {
+  z-index: 1; /* so on top of hidden thumbnails */
+  position: relative;     
+  font-weight: normal;
+  background: white;
+  border: 4px ridge;
+  border-color: #CE6900;
+  text-align: center;
+height: 429px;
+top: -437px;
+width: 60%;/*752px;*/
+margin-left: 5px; 
+}
+/* #eachBigPicturePageBody is used by the individual pages */
+#eachBigPicturePageBody {
+  background-color: rgb(255,255,255);
+  font-weight: normal;
+  font-family: "Book Antigua","Palatino Linotype", Palatino, serif;
+  width: 100%;
+margin-top: 42px;
+  text-align:center;
+  font-weight: normal;
+  overflow: hidden;
+}
+#eachBigPicturePageBody img {
+  border: 1px solid #021a40;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: normal;
+  outline: 0; /* remove box */
+}
+a:hover {
+  color: #000000;
+  text-decoration: none; /*underline;*/
+}
+a:visited {
+  text-decoration: none;
+}
+a.thumbnailAndCaption {outline:none; }
+a.thumbnailAndCaption strong {line-height:30px;}
+a.thumbnailAndCaption:hover {text-decoration:none;}
+a.thumbnailAndCaption span { z-index:10;display:none; padding:14px 20px; margin-top:-60px; margin-left:-180px; width:240px; line-height:16px; }
+a.thumbnailAndCaption:hover span{ display:inline; position:absolute; color:#111; border:1px solid #DCA; background:#fffAF0;}
+
+.verticalCenterLine,.verticalLineLeft,.verticalLineRight {
+  position: absolute;
+  z-index:10;
+  display:inline;
+  width: 1px;
+  height: 100%;
+  color: yellow;
+  top: 0;
+}
+.verticalCenterLine { left: 50%; }
+.verticalLineLeft { left: 230px; /*120px;*/ }
+.verticalLineRight { left: 970px; /*1080px;*/ }
+.horizontalTopLine, .horizontalBotLine {
+  position: absolute;
+  z-index:99;
+  display:inline;
+  left: -100px;
+  width:  100%;
+  height: 1px;
+  color: yellow;
+} 
+.horizontalTopLine { top: 155px; /*180px;*/ }
+.horizontalBotLine { top: 604px; /*632px;*/ }
