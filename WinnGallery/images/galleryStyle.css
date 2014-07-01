@@ -1,7 +1,7 @@
-@import url(../normalize.css);
+@import url(../../normalize.css);
 /* seems border must be specified in pixels for Chrome */
 #galleryPageMainBody {
-  background: transparent url(../br_paper.jpg) repeat scroll 0%;
+  background: transparent url(../../br_paper.jpg) repeat scroll 0%;
   position: relative;
   margin: 0 auto;
   width: 50%;
