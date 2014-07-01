@@ -4,8 +4,10 @@
   font-family: "Book Antigua","Palatino Linotype",Palatino, serif;
   position: relative;
   margin: 0 auto;
-  width: 70.63em; /*1130px;*/
+/*width: 70.63em;*/ /*1130px;*/
+width: 980px;
   text-align: center;
+overflow: auto; /*scroll;*/ /*hidden;*/
 }
 h1 {
   margin-left: 0;
@@ -31,8 +33,10 @@ h2 {
 }
 #navbuttonsonleft {
   position: absolute;
-  left: 9em; /*350px;*/
-  width: 10.63em; /*170px;*/
+/*  left: 9em;*/ /*350px;*/
+left: 70px;
+/*  width: 10.63em;*/ /*170px;*/
+width: 113px;
 }
 #navcontainer ul {
   border:  none;
@@ -68,7 +72,8 @@ h2 {
   color: #000000;
 }
 #center {
-  margin-left: 18em; /*260px auto; no good */
+/*  margin-left: 18em;*/ /*260px auto; no good */
+margin-left: 210px;
   width: 35.31em; /*565px;*/ /*50%;*/
   text-align: left;
   padding-top: 1em; /*1.5ex;*/

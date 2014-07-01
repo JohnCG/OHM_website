@@ -1,11 +1,12 @@
 @import url(Common.css);
 #center {
-  padding-top: 1.05em; /*2.1ex;*/
+  padding-top: 1.05em;
 }
 #dorybottom {
 
-  margin-left: 18em;
-  text-align: justify; /*left;*/
-  width: 35.31em; /*565px;*/ /*550px;*/
+  margin-left:210px;
+  text-align: justify;
+  width: 565px;
+  overflow: auto;
 }
 

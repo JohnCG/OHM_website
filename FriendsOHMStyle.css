@@ -2,11 +2,8 @@
 @import url(Common.css);
 
 pre {
-  font-family: "Lucida Console", Courier, monospace; /*fixedsys,terminal,courier;*/
+  font-family: "Lucida Console", Courier, monospace;
   font-weight: normal;
-}
-h1 {
-width: 110%; /* needed to center with respect to body */
 }
 #fohmcenter {
 
@@ -15,14 +12,11 @@ width: 110%; /* needed to center with respect to body */
   font-size: 1.2em;
 
   font-weight: bold;
-
-}
+  width: 565px;}
 
 #membership {
 
   text-align: left;
-
-  margin-left: 0.31em; /*5px;*/
 
   font-size: 1.1em;
 
@@ -54,7 +48,7 @@ width: 110%; /* needed to center with respect to body */
   text-align: center;
 
   font-size: 1.2em;
-
+  width: 565px;
 }
 
 #address {
@@ -62,7 +56,7 @@ width: 110%; /* needed to center with respect to body */
   text-align: center;
 
   font-size: 1em;
-
+  width: 565px;
 }
 
 #fohmfillout {
@@ -105,6 +99,7 @@ width: 110%; /* needed to center with respect to body */
 
   font-style: italic;
 
+  width: 565px;
 }
 
 #fohmbottom {
@@ -123,5 +118,5 @@ width: 110%; /* needed to center with respect to body */
   border-color: #999999;
 
   border-width: 0.13em; /*2px;*/
-  width: 42em; /*40em;*/ /*640px;*/
+  width: 565px;
 }
