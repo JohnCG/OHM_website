@@ -3,6 +3,17 @@
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
   <link href="HomeStyle.css" rel="stylesheet" type="text/css"/>
    <?php require 'counter.php'; collectStats(); ?>
+  <script type="text/javascript">
+    "use strict";
+    // attempt to record clients screen dimensions
+    var nScreenWidth = window.screen.availWidth;
+    var nScreenHeight = window.screen.availHeight;
+    var xmlhttp = null;
+    if (window.XMLHttpRequest){ xmlhttp = new XMLHttpRequest();}
+    else { xmlhttp = new XMLHttpRequest("Microsoft.XMLHTTP");}
+    xmlhttp.open("GET", "screen.php?w=" + encodeURIComponent(nScreenWidth) + "&h=" + encodeURIComponent(nScreenHeight), false);
+    xmlhttp.send();
+  </script>
 </head>
 <body id="body">
 <h1>THE OGUNQUIT HERITAGE MUSEUM</h1>
